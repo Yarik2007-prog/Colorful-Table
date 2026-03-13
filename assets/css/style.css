@@ -1,39 +1,40 @@
-table{
+table {
     width: 30%;
     margin: 0 auto;
     border: 5px solid red;
     text-align: center;
 }
 
-caption::first-line{
+caption {
     color: red;
 }
 
-caption::after{
+caption::after {
     content: "#5";
     color: blue;
 }
 
-th, td{
+th,
+td {
     border: 3px solid aqua;
 }
 
-thead{
+thead {
     background-color: bisque;
 }
 
-tbody>tr>td:first-child{
+tbody > tr > td:first-child {
     background-color: cyan;
 }
 
-tbody tr:nth-child(odd){
+tbody tr:nth-child(odd) {
     background-color: rgb(240, 200, 150);
 }
 
-tbody tr:nth-child(even){
+tbody tr:nth-child(even) {
     background-color: rgb(144, 144, 144);
 }
 
-tfoot{
+tfoot {
     background-color: rgb(209, 77, 77);
 }
